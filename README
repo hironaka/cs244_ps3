@@ -1,0 +1,60 @@
+Preparation
+===========
+The simple way to prepare the environment for running the tests
+is by running
+
+# ./init.sh
+
+from the Git repository root. The init.sh script installs the 
+prerequisites, initializes the necessary submodules and build
+the patched TC tool.
+Bellow you can find a more in-depth explanation of the 
+preparation steps.
+
+Running
+=======
+The tests are executed by running
+
+# ./run.sh
+
+from the Git repository root.
+
+Building modified version of iproute2
+=====================================
+Several prerequisites are required to build iproute2:
+- Flex
+- Yacc/Bison
+- libdb-dev
+
+To install the prerequisites run:
+# sudo apt-get install flex bison libdb-dev
+
+To clone the modified iproute2 sources run the following
+in your git repository directory:
+
+# git submodule init
+# git submodule update
+
+Go to iproute2 directory and run
+# ./configure
+# make
+
+Diagnostics
+===========
+While pFabric is activated (the kernel module is loaded and the qdisc
+is added) it is possible to retrieve some statistic by reading from
+the files /proc/pfabric_stats_<dev> and /proc/pfabric_stats_csv_<dev>
+where <dev> stands for the network interface to which the qdisc was added.
+Currently the statistics are mutual for all devices so this is only a
+preparation to enable individual statistics per network device for
+more complex topologies involving multiple pFabric switches.
+
+pFabric Switch Design
+=====================
+pFabric switch is designed as a loadable Linux kernel module 
+which implements a classless queuing discipline (qdisc).
+The qdisc is used for packet scheduling according to flow priorities.
+More information about packet scehduling and queuing disciplines in
+Linux can be found here:
+http://tldp.org/HOWTO/Traffic-Control-HOWTO/components.html
+

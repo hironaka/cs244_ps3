@@ -1,0 +1,455 @@
+[33mcommit 46a4219939b41eb7379a40e6a57a4541e2ed57d7[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 13:07:02 2013 +0000
+
+    Fix eval_utils command print
+
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+[33mcommit fcd68f10731e3c657d7418a3a235c2450d174c6d[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 02:51:14 2013 +0000
+
+    Flows number increased in run.sh. Flow sizes changed
+
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+[33mcommit 02b187ec96b5fd9bf8324daf356383e4522fc72c[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 02:21:39 2013 +0000
+
+    Do not evaluate DCTCP
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit 26078bdd6a6a282d1c2273bcce978edf1234d007[m
+Merge: 5788b2f abc244b
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 01:52:59 2013 +0000
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 5788b2f730d3b96331bd6c0792fc08ab2cc742f0[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 01:52:49 2013 +0000
+
+    Send SIGINT to iperf instead SIGKILL
+
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+[33mcommit 38370fe184e774715673d7a186b3886090b18cad[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 17:28:21 2013 -0700
+
+    run.sh uses patched iperf
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 12fc1e9c15f218b831d5a99423b63769cbbe6d32[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 17:27:09 2013 -0700
+
+    Build patched iperf
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit c8b9b03f2639aeaffa33c1e4b9e0b20a287920e1[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 17:26:46 2013 -0700
+
+    Apply iperf patch - wait for SYN
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+[33mcommit d852c6ce2733fe27e331feb991e802f18400e7b2[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 00:03:48 2013 +0000
+
+    Changes in run.sh
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit 1023c408593e743a67d4acd256ff7ca0224fb9f0[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Mar 13 00:01:54 2013 +0000
+
+    Pasrsing matches new evaluation scheme
+
+ 1 file changed, 16 insertions(+), 13 deletions(-)
+
+[33mcommit b09655d412c8a05d5381ab751c316b6fddd28ea9[m
+Merge: e2bbe83 2fe7f87
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 21:59:16 2013 +0000
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit e2bbe83498c60f3cbb7f014f0cb8717bb4224c56[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 21:58:40 2013 +0000
+
+    Fix plotting - sort loads
+
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+[33mcommit 01a73eb812f39a397f2059e7e73195abd4731693[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 14:25:17 2013 -0700
+
+    Don't hide IndexError, all results should be present
+
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+
+[33mcommit dee4312e3d127cbd537c8f73fe088ac2614add42[m
+Merge: 9d1a728 dc3d2b2
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 12:05:48 2013 +0100
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 9d1a728c9108f200e173ea93553471a975998902[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 11:58:07 2013 +0100
+
+    Added plot_defaults.py
+
+ 2 files changed, 77 insertions(+)
+
+[33mcommit 4cea20cbac60a35435602b4e9e092418848092d8[m
+Merge: 0af60fb 6ae2567
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 09:14:28 2013 +0100
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 0af60fb45268e8806e8a48a870d8586bf3082f2b[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 09:13:40 2013 +0100
+
+    Plot graphs
+
+ 1 file changed, 50 insertions(+), 28 deletions(-)
+
+[33mcommit 537d2cfc5f91130a4881cf4aa73f4ab42621941b[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 06:32:34 2013 +0100
+
+    Not using modified iperf. Moved patches to separate directory.
+
+ 5 files changed, 7 insertions(+), 14 deletions(-)
+
+[33mcommit c793e2302c80181954fa90f67f37b6215752fc3f[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 06:30:43 2013 +0100
+
+    No need for patched iperf anymore. We use TOS and not SO_PRIORITY
+
+ 4 files changed, 152 insertions(+), 152 deletions(-)
+
+[33mcommit f4d26a815f4874b2db26c15d67f7fe785f7e0801[m
+Merge: fb395da 0e2a7ba
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 05:26:32 2013 +0100
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit fb395daccd5e560a2b3fca1579b3ab9414fdaaa5[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 05:26:23 2013 +0100
+
+    Added results plotting
+
+ 1 file changed, 51 insertions(+), 10 deletions(-)
+
+[33mcommit 0e2a7bab5f5531581eb42a211ed91ddfc8596be3[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 03:06:43 2013 +0000
+
+    README updated
+
+ 1 file changed, 36 insertions(+), 25 deletions(-)
+
+[33mcommit 44178637287a8778f33b149595faa1c2bd05ca13[m
+Merge: 8aa4a4c 3374376
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 03:57:12 2013 +0100
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 8aa4a4ca43784e1b5fe562833befc084d2dbbc70[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 03:56:48 2013 +0100
+
+    Add network device name to /proc/pfab_stats...
+
+ 3 files changed, 46 insertions(+), 19 deletions(-)
+
+[33mcommit 3374376c421b0201e31d5bcc227484835271753b[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 01:58:12 2013 +0000
+
+    Add -y flag to apt-get to automatically install required packages
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 0e4ad622b50178d8cdc52bc5e74f55da672bd3f3[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 02:23:08 2013 +0100
+
+    eval_utils.py
+
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+[33mcommit 95a6c6733f1bb1d32cbdd33efd9f77ae7a0dbbde[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 02:09:14 2013 +0100
+
+    Modified iproute2
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit f676db745063bff2b008f32799c54d0f3209ccf2[m
+Merge: 6e804d0 7b3b7af
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 02:07:35 2013 +0100
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 6e804d0ab7a4c0a46ef4ab12711db5557acd7591[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Mar 12 02:06:07 2013 +0100
+
+    Added eval_utils.py
+
+ 1 file changed, 24 insertions(+)
+
+[33mcommit aedc2b1c214462362825023aeaacd11d5fa1913e[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 22:39:36 2013 +0000
+
+    Fixed build iperf script path
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit d495723b80c5e9b4e86e073624990c998de413a9[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 22:26:02 2013 +0000
+
+    Added a commit
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit d737e6bfaa84572aa9f27a474c518b3b8578ee82[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 22:40:06 2013 +0100
+
+    Possible to pass start times to initialize flow class in Ideal scheduler
+
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+[33mcommit ce74c0837bf607cd1a1fc4d3b53bbd8adb8c221f[m
+Merge: b2b1f54 8b1a751
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 14:27:56 2013 -0700
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit b2b1f54608fa30126678e060f5ded99aa11c0801[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 14:27:27 2013 -0700
+
+    Added execution directive using Python to pfabric.py
+
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+[33mcommit d4b59dd7d5c71cf61a8f6f147f5fbc232a1541ab[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 14:16:24 2013 -0700
+
+    Added a variable for the kernel module name
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+[33mcommit 0570f3042f73b85482ace8235fa29903620610cf[m
+Merge: 4e8ee39 c122044
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 14:14:54 2013 -0700
+
+    Merge branch 'master' of https://bitbucket.org/ymcrcat/cs244-pa3
+
+[33mcommit 4e8ee3939eca561dbf0575906626e6748c29780b[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 14:14:18 2013 -0700
+
+    Added 'Ideal' scheduling simulation
+
+ 1 file changed, 66 insertions(+)
+
+[33mcommit c12204429a5d8b031bd9dc10f901ceb6e5a8a64f[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 21:00:39 2013 +0100
+
+    Added pfabric.ko removal at the end
+
+ 1 file changed, 2 insertions(+)
+
+[33mcommit 6f4a5309a1777ecb65ddff5ad7b58fd512b28639[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 20:38:14 2013 +0100
+
+    Change default queue size to 150 packets (~22.5KB) as in paper
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit c2be95f0fd134069a38bcbb64299d189eb5cf913[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 12:24:36 2013 -0700
+
+    Added installation of prerequisites for iproute2
+
+ 1 file changed, 5 insertions(+)
+
+[33mcommit 901da50e7edcb8b3a090795826258632b1b7ee18[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 20:08:34 2013 +0100
+
+    Add pfabric.ko injection to run.sh
+
+ 1 file changed, 5 insertions(+)
+
+[33mcommit 567c0db3346d3c24b0fc01e813017cfc7faaf129[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 13:24:18 2013 +0100
+
+    Some small optimizations
+
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+[33mcommit 30675794ffff19436df4e272c48abc8c8d0ee1d9[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 13:18:24 2013 +0100
+
+    Changed default packet buffer limit to match setting in TC
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit dade8636e0f48fc9ba4e8c35e9c89faaf07a545a[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 13:16:54 2013 +0100
+
+    Added kernel module building
+
+ 1 file changed, 3 insertions(+)
+
+[33mcommit 85905dd50b2ba60ef002265ec81cf38274bd50c5[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 13:14:55 2013 +0100
+
+    Added init.sh script
+
+ 1 file changed, 8 insertions(+)
+
+[33mcommit 0f87256745773b0d68246eb1fd30d2b52058240a[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 13:11:34 2013 +0100
+
+    Some stats additions
+
+ 4 files changed, 22 insertions(+), 23 deletions(-)
+
+[33mcommit f8d8f67a8b87f5659059faaf0948d9c0064f3090[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 12:38:19 2013 +0100
+
+    No need for PA2 iperf patch
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+[33mcommit 37e4b2bcf8779fd7a7b0eb87b19972ac69fca96c[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 12:33:40 2013 +0100
+
+    Fixed bands in bitmap
+
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+[33mcommit 54f3a36f010fa598a6d18a6d43d89a496b2d6439[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 12:18:33 2013 +0100
+
+    Fix incorrect skb allocation length
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 8172d00446a3d6e6a28860659e2ebc98aa670805[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 12:17:14 2013 +0100
+
+    Fixes to packet checking
+
+ 3 files changed, 9 insertions(+), 7 deletions(-)
+
+[33mcommit 9c00a974abf2ea76f8acae44156f26dc9716ee2f[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 11:32:04 2013 +0100
+
+    Changed iproute2 clone URL
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 6673b0125d560352743342fd8e01452cb77e3534[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 11:25:07 2013 +0100
+
+    Setting skb priority accroding to TOS field
+
+ 5 files changed, 75 insertions(+), 23 deletions(-)
+
+[33mcommit 3ef3d5f93d7e5b3bce220d3d298447d56c5a8091[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Mon Mar 11 03:04:45 2013 +0100
+
+    - Build iperf with SO_PRIORITY CPP flag
+    - Add packets per band stats
+
+ 6 files changed, 22 insertions(+), 9 deletions(-)
+
+[33mcommit f8159e280ff718efdcce6e4a951ead8534bf5461[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Wed Feb 27 23:31:50 2013 -0800
+
+    Updated README. Pointer initialization in kernel module
+
+ 2 files changed, 2 insertions(+), 7 deletions(-)
+
+[33mcommit 18d70731e55cea60dbfc3c0b11207f7f84dccce9[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Fri Feb 22 02:52:00 2013 -0800
+
+    tc-prio man page added
+
+ 1 file changed, 1 insertion(+)
+
+[33mcommit 39407d200af0b19f4d62e3654ff376c1b704f195[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Thu Feb 21 03:21:13 2013 -0800
+
+    Added pFabric switch implementation idea
+
+ 1 file changed, 14 insertions(+)
+
+[33mcommit 8ac8c9a6ad9d21d7c6de90e2090ff4e633a63e16[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Feb 19 01:53:05 2013 +0000
+
+    Added README
+
+ 1 file changed, 7 insertions(+)
+
+[33mcommit ca6390769b5f9a625afc3400d3c2df4c45c9b66c[m
+Author: Yan Michalevsky <yanm2@stanford.edu>
+Date:   Tue Feb 19 01:50:22 2013 +0000
+
+    Added iperf patch
+
+ 3 files changed, 164 insertions(+)

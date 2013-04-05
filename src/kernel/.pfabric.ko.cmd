@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.5.0-25-generic/scripts/module-common.lds --build-id  -o /home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.ko /home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.o /home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.mod.o

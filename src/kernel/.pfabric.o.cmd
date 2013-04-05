@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.o := ld -m elf_i386   -r -o /home/ubuntu/cs244/cs244-pa3/src/kernel/pfabric.o /home/ubuntu/cs244/cs244-pa3/src/kernel/sch_pfab.o /home/ubuntu/cs244/cs244-pa3/src/kernel/stats.o 
